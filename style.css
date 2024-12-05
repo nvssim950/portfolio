@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+html{
+   scroll-behavior: smooth; 
+}
+p{
+    color: rgb(85, 85, 85);
+}
+a,.btn{
+    transition: all 300ms ease;
+}
+/* nav bar */
+nav,.nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;
+}
+a:hover{
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+}
+.logo{
+    font-size: 2rem;
+}
+.logo:hover{
+    cursor:default ;
+}
+section{
+    padding-top: 5vh;
+    height: 90vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+
+
+}
+.section__pic-continer{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 50px;
+
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 600px;
+
+}
+.section__text{
+    align-self: center;
+    text-align: center;
+}
+.section__text p{
+    font-weight: 500;
+}
+.section__text__p1{
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.title{
+    font-size: 3rem ;
+    text-align: center ;
+}
+.section__text__p2{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+#social_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+    padding: 1rem;
+}
+/* about section */
+#about{
+    position: relative;
+    height: 600px;
+
+}
+#about p ,#Projects p,.contact p{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+
+}
+.about-container{
+    gap: 2rem;
+    margin: 2rem 0 ;
+
+}
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.about-container,.about-details-container{
+    display: flex;
+}
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) solid 0.1rem
+    ;
+    text-align: center;
+}
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+#about .section__text__p1 ,#Projects p ,.contact p{ margin-top: 30px;}
+.btn-container,#contact .section__text__p1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{font-weight: 600;
+transition: all 300ms ease;
+padding: 1rem;
+width: 8rem;
+border-radius: 2rem;
+
+}
+.btn-color-2{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background-color: white;
+
+}
+.btn-color-2:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+    cursor: pointer;
+    border: white 0.1rem solid;
+}
+#Projects{
+    position: relative;
+    height: 700px;
+}
+.color-container{
+    border-color:rgb(163, 163, 163) ;
+    background-color: rgb(250,250,250);
+}
+.project-img{
+    border-radius:2rem ;
+    width: 90%;height: 90%;
+}
+.project-title{
+    margin: 1rem;
+    color: black;
+
+}
+.project-btn{
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+#Projects img{
+    width: 150px;
+    padding: 30px;
+}
+#Projects .details-container {height: 350px;}
+.name input{ 
+    width: 270px;
+    height: 45px;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53).1rem solid;
+    padding: 3px 10px;
+    text-align: center;
+    margin: 30px;
+
+}
+.email input{
+    width: 550px;
+    height: 45px;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53).1rem solid;
+    padding: 3px 10px;
+    text-align: center;
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer{
+    height: 22vh;
+margin: 0px 1rem;
+}
+footer p {
+    text-align: center;
+    font-size: small;
+}
