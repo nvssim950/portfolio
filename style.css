@@ -194,16 +194,16 @@ border-radius: 2rem;
     border: rgb(53, 53, 53).1rem solid;
     padding: 3px 10px;
     text-align: center;
-    margin: 30px;
+    margin-right: 15px;
+    
 
 }
 .email input{
-    width: 550px;
+    width: 610px;
     height: 45px;
     border-radius: 2rem;
     border: rgb(53, 53, 53).1rem solid;
-    padding: 3px 10px;
-    text-align: center;
+    text-align: center;   padding: 3px 10px;
 
 }
 .email{
@@ -213,13 +213,19 @@ border-radius: 2rem;
     margin-bottom: 50px;
 
 }
-
-
+#em{
+    margin-left: 35PX;
+}
+.name .name1{
+    display: flex;
+    
+}
 
 .name{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
+
 }
 
 footer{
